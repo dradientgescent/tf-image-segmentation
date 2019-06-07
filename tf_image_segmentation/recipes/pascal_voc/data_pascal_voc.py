@@ -25,8 +25,8 @@ from collections import defaultdict
 import os
 from keras.utils import get_file
 # from tf_image_segmentation.recipes import datasets
-from utils.tf_records import write_image_annotation_pairs_to_tfrecord
-from utils import pascal_voc
+from ..utils.tf_records import write_image_annotation_pairs_to_tfrecord
+from ..utils import pascal_voc
 import tarfile
 
 # ============== Ingredient 2: dataset =======================
